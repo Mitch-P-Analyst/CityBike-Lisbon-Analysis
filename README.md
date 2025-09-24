@@ -17,6 +17,7 @@ This project explores the influence of surrounding businesses on bike availabili
 - Jupyter Notebooks
 
 ## Process
+
 ### Step 1 
 - city_bikes.ipynb
 
@@ -104,11 +105,16 @@ This project explores the influence of surrounding businesses on bike availabili
 ### Visual Observations
 - Pairplots showed **no clear visual relationship** between business categories, average popularity or average ratings, and the availability of Free Bikes or Total Bike Slots.
 - This held true both **before and after bias correction**, suggesting a weak influence of surrounding locations on bike availability.
-    - Cleaned Dataframe Scatterplot Visualisations
-        - ![Scatterplot of Free Bikes Vs Ratings](https://github.com/Mitch-P-Analyst/CityBike-Lisbon-Analysis/blob/main/images/Free_Bkes_Ratings_Vis.png?raw=true)
-        
-        - ![Scatterplot of Free Bikes Vs Categories](https://github.com/Mitch-P-Analyst/CityBike-Lisbon-Analysis/blob/main/images/Free_Bikes_Cates_Vis.png?raw=true)
-        - ![Pairplot of Bike Stations](https://github.com/Mitch-P-Analyst/CityBike-Lisbon-Analysis/blob/main/images/Pairplot_Vis.png?raw=true)
+
+- Cleaned Dataframe Scatterplot Visualisations
+    ![Scatterplot of Free Bikes Vs Ratings](https://github.com/Mitch-P-Analyst/CityBike-Lisbon-Analysis/blob/main/images/Free_Bkes_Ratings_Vis.png?raw=true)
+    - *Scatterplot of Free Vikes Vs Ratings*
+    
+    ![Scatterplot of Free Bikes Vs Categories](https://github.com/Mitch-P-Analyst/CityBike-Lisbon-Analysis/blob/main/images/Free_Bikes_Cates_Vis.png?raw=true)
+    - *Scatterplot of Free Bikes Vs Categories*
+
+    ![Pairplot of Bike Stations](https://github.com/Mitch-P-Analyst/CityBike-Lisbon-Analysis/blob/main/images/Pairplot_Vis.png?raw=true)
+    - *Pairplot of all Bike Stations*
 
 ### OLS Regression Model Findings
 - Pearson R correlation and VIF analyses confirmed **low multicollinearity for business categories**, with a proposed threshold of 5. However, little predictive strength in further analysis.
